@@ -23,6 +23,9 @@ export const Navbar = () => {
 
         {/* Nav Links */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-[#64748B]">
+          <Link href="/about" className="hover:text-[#1E3A8A] transition-colors font-semibold">
+            About
+          </Link>
           <Link href="/features" className="hover:text-[#1E3A8A] transition-colors font-semibold">
             Features
           </Link>
